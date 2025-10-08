@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microlife Game</title>
+  <!-- PWA: favicon and manifest (VitePWA will also inject manifest link on build) -->
+  <link rel="icon" href="icons/icon-192x192.png" sizes="192x192" />
+  <link rel="manifest" href="manifest.webmanifest" />
+    <!-- iOS Safari: enable standalone mode and set status bar style -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Microlife" />
+  <!-- iOS requires an apple-touch-icon (PNG); ensure this path exists in /public/icons -->
+  <link rel="apple-touch-icon" href="icons/icon-192x192.png" />
+    <meta name="theme-color" content="#202533" />
+    <script type="module" crossorigin src="/microlife-test/assets/index-CU2_mfTh.js"></script>
+  <link rel="manifest" href="/microlife-test/manifest.webmanifest"></head>
+  <body>
+    <style>
+      html, body, #gameContainer { width: 100%; height: 100%; margin: 0; padding: 0; background: #202533; }
+      body { overflow: hidden; }
+    </style>
+    <div id="gameContainer"></div>
+  </body>
+  </html>
